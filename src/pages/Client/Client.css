@@ -1,0 +1,11 @@
+.imageBanner img{
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 400px) {
+    .imageBanner img {
+      height: 300px;
+      width: 300px;
+    }
+  }

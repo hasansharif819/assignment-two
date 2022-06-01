@@ -1,0 +1,39 @@
+.footerClass{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 5px;
+}
+.name{
+    width: 20%;
+}
+.contact{
+    width: 20%;
+}
+.info{
+    width: 20%;
+}
+.account{
+    width: 20%;
+}
+.company{
+    width: 20%;
+}
+
+@media only screen and (max-width: 500px) {
+    .footerClass {
+      background-color: lightblue;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+@media only screen and (min-width: 501px) and (max-width: 990px) {
+    .footerClass {
+      background-color: violet;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }

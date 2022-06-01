@@ -1,0 +1,27 @@
+.banner-class{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px; */
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+.headingClass{
+    text-align: left;
+}
+.checkBox{
+    text-align: left;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+    .banner-class{
+      display: flex;
+      flex-direction: column;
+    }
+    .banner-class img{
+        height: auto;
+    }
+  }

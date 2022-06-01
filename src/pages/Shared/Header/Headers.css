@@ -1,0 +1,34 @@
+.headers{
+    background-color: #F2F2F2;
+    color: #644F9C;
+}
+
+.navBar{
+    color:#644F9C;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signUpButton{
+    border: 2px solid #FF6F00;
+    border-radius: 20px;
+    background-color: #FF6F00;
+    color: white;
+}
+
+
+
+.loginButton{
+    background-color: #F2F2F2;
+    margin-left:100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 400px) {
+    .navBar{
+      display: flex;
+      flex-direction: column;
+      margin-left: 0;
+    }
+  }
